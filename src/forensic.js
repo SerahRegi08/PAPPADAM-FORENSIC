@@ -87,6 +87,7 @@ function Forensic({ image, onBack }) {
       }
     }
     analyze()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [image])
 
   // SIMPLE, RELIABLE ANALYSIS
